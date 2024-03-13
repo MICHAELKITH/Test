@@ -1,14 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+
+import Header from './assets/components/Header'
+import Intro from './assets/components/Intro'
+import Features from './assets/components/Features'
+import About from './assets/components/About'
 
 function App() {
 
   return (
-    <>
-     <h1 className='text-blue-500 text-4xl'>Hello Pro mike</h1>
-    </>
+    <div className=''>
+       <Header/>
+       <Intro/>
+       <Features/>
+       <About/>
+
+    </div>
   )
 }
 
