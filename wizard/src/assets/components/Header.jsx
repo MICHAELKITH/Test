@@ -38,9 +38,10 @@ const Header = () => {
           {Links.map((link) => (
             <>
               <li
-                key={link.id}
-                className="md:ml-8 md:my-0 my-7 font-semibold  "
-              >
+                 key={link.id}
+                 className={`md:ml-8 md:my-0 my-7 font-semibold`}
+                 style={link.name === "Home" ? { textDecoration: "underline" } : {}}
+               >
                 <a
                   href={link.link}
                   className="text-gray-400 hover:text-black duration-500"
