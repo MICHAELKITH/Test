@@ -15,16 +15,17 @@ const Intro = () => {
       </p>
 
       <button className="  btn bg-black text-white rounded-md px-2 py-2 text-xl font-medium hover:bg-gray-800 my-4 place-content-center gap-3 mb-12">
-        Install Wizardshot  <span className="text-2xl font-normal"> →</span>
+        Install Wizardshot <span className="text-2xl font-normal"> →</span>
       </button>
       <div className="relative">
-  <div className="flex justify-center items-center border-8 border-purple-400 md:w-1/2 rounded-md mx-auto my-8 relative">
-    <img src={vid} alt="" className="w-full h-full object-cover" />
-    <img src={arrow} alt="" className="absolute -top-8 -left-5" />
-    <p className="absolute -top-8 left-5 -my-6 italic font-thin leading-tight ">It only takes 3 clicks to <br /> publish your first tutorial</p>
-  </div>
-</div>
-
+        <div className="flex justify-center items-center border-8 border-purple-400 md:w-1/2 rounded-md mx-auto my-8 relative">
+          <img src={vid} alt="" className="w-full h-full object-cover" />
+          <img src={arrow} alt="" className="absolute -top-8 -left-5" />
+          <p className="absolute -top-8 left-5 -my-6 italic font-thin leading-tight ">
+            It only takes 3 clicks to <br /> publish your first tutorial
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

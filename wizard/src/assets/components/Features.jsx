@@ -8,12 +8,18 @@ const Features = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <h1 className="text-3xl md:text-2xl lg:text-5xl font-bold tracking-tight mr-2 mx-5 text-center leading-1 font-jakarta-sans text-[#18181B]">
-        Say <span className="underline">Goodbye To Writing Docs</span>, and Hello <br />To Wizardshot Doing it for YOU.
+        Say <span className="underline">Goodbye To Writing Docs</span>, and
+        Hello <br />
+        To Wizardshot Doing it for YOU.
       </h1>
 
       <div className="flex flex-col md:flex-row justify-center items-center p-4 mt-6 md:gap-10">
-        <div className="mb-6 md:mb-0 flex justify-center items-center flex-col w-96 h-96 " >
-          <img className="w-96 h-96 bg-gradient-to-r from-green-400 to-purple-600 via-orange-500 to-yellow-400" src={group1} alt="" />
+        <div className="mb-6 md:mb-0 flex justify-center items-center flex-col w-96 h-96 ">
+          <img
+            className="w-96 h-96 bg-gradient-to-r from-green-400 to-purple-600 via-orange-500 to-yellow-400"
+            src={group1}
+            alt=""
+          />
           <p className="font-open-sans text-base font-semibold leading-6 tracking-normal text-left mx-10 flex flex-col mt-5">
             1. Click Capture
             <span className="font-open-sans text-sm font-normal leading-5 tracking-normal text-left">
@@ -23,7 +29,7 @@ const Features = () => {
           </p>
         </div>
         <div className="mb-6 md:mb-0 flex justify-center items-center flex-col w-96 h-96">
-          <img  className="w-96 h-96"  src={group2} alt="" />
+          <img className="w-96 h-96" src={group2} alt="" />
           <p className="font-open-sans text-base font-semibold leading-6 tracking-normal text-left mx-10 flex flex-col mt-5">
             2. Perform Your Actions
             <span className="font-open-sans text-sm font-normal leading-5 tracking-normal text-left">
@@ -33,7 +39,7 @@ const Features = () => {
           </p>
         </div>
         <div className="flex justify-center items-center flex-col w-96 h-96">
-          <img  className="w-96 h-96" src={group3} alt="" />
+          <img className="w-96 h-96" src={group3} alt="" />
           <p className="font-open-sans text-base font-semibold leading-6 tracking-normal text-left mx-10 flex flex-col mt-5">
             3. ✅ Done. Article Written
             <span className="font-open-sans text-sm font-normal leading-5 tracking-normal text-left">
