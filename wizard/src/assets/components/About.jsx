@@ -5,29 +5,29 @@ import chrome from "/images/chrome.png";
 
 const About = () => {
   return (
-    <div className="md:mt-12 mx-auto">
-      <div className="flex flex-col md:flex-row md:mt-4 md:gap-8 bg-gradient-to-r from-green-200 via-red-200 to-blue-200 h-auto md:h-7 md:w-3/4 md:mx-12 ">
-        <div className="flex gap-2 items-center -ml-1">
-          <h1 className="font-jakarta-sans md:text-2xl font-medium leading-12 tracking-normal text-start">
+    <div className="md:mt-12 mx-auto py-8">
+      <div className="flex flex-row md:flex-row md:mt-4 md:gap-8 bg-gradient-to-r from-green-200 via-red-200 to-blue-200 md:h-7 md:w-3/4 w-full h-5 md:mx-12 -gap-4 ">
+        <div className="flex flex-row md:gap-2 items-center md:-ml-1 text-sm"> 
+          <h1 className="font-jakarta-sans md:text-2xl font-medium leading-12 tracking-normal text-start text-xl">
             Free
           </h1>
-          <p className="font-jakarta-sans text-base flex flex-col">
+          <p className="font-jakarta-sans md:text-base flex flex-col text-sm">
             Free <span className="font-normal">Forever</span>
           </p>
         </div>
-        <div className="flex gap-2 items-center ml-12">
-          <h1 className="font-jakarta-sans text-2xl font-medium leading-12 tracking-normal text-center">
+        <div className="flex gap-2 items-center md:ml-12 ml-2">
+          <h1 className="font-jakarta-sans md:text-2xl font-medium leading-12 tracking-normal text-center text-xl">
             Unlimited
           </h1>
-          <p className="font-jakarta-sans text-base flex flex-col">
+          <p className="font-jakarta-sans md:text-base flex flex-col text-sm">
             Tutorial <span className="font-normal">Creation</span>
           </p>
         </div>
-        <div className="flex gap-2 items-center ml-14">
-          <h1 className="font-jakarta-sans text-2xl font-medium leading-12 tracking-normal text-center">
+        <div className="flex gap-2 items-center md:ml-14 ml-1">
+          <h1 className="font-jakarta-sans md:text-2xl font-medium leading-12 tracking-normal text-center text-xl" >
             Powerful
           </h1>
-          <p className="font-jakarta-sans text-base flex flex-col ">
+          <p className="font-jakarta-sans md:text-base flex flex-col text-sm">
             Editor & <span className="font-normal"> Integrations</span>
           </p>
         </div>
