@@ -13,8 +13,7 @@ This project was built using these technologies.
 
 - JavaScript
 - Webpack
-- HTML
-- CSS
+- Tailwind CSS
 - React
 - Git/Github
 - Node.js
