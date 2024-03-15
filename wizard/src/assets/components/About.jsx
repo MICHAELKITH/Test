@@ -28,7 +28,7 @@ const About = () => {
             Powerful
           </h1>
           <p className="font-jakarta-sans text-base flex flex-col ">
-            Editor <span className="font-normal">& Integrations</span>
+            Editor & <span className="font-normal"> Integrations</span>
           </p>
         </div>
       </div>
