@@ -31,7 +31,7 @@ This project was built using these technologies.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 > 
-<!-- - [Live Link](https://math-magician-0nfj.onrender.com) -->
+<!-- - [Live Link](https://testhelpjuice.netlify.app/) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
