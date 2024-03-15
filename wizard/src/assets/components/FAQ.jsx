@@ -37,7 +37,7 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="flex justify-center items-center flex-col pt-6 py-3">
+    <div className="flex justify-center items-center flex-col pt-6 py-12">
       <div className="p-4 rounded-lg md:w-1/2 ">
         <h1 className="text-2xl font-semibold text-center mb-4">
           Common Questions
