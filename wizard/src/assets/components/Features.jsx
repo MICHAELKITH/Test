@@ -20,9 +20,9 @@ const Features = () => {
             src={group1}
             alt=""
           />
-          <p className="font-open-sans text-base font-semibold leading-6 tracking-normal text-left mx-10 flex flex-col mt-5">
+          <p className="font-open-sans text-xl font-semibold leading-6 tracking-normal text-left mx-10 flex flex-col mt-5">
             1. Click Capture
-            <span className="font-open-sans text-sm font-normal leading-5 tracking-normal text-left">
+            <span className="font-open-sans text-l font-normal leading-5 tracking-normal text-left mt-2">
               Once you install the Chrome extension, fire it up, and click
               “Capture”.
             </span>
@@ -30,9 +30,9 @@ const Features = () => {
         </div>
         <div className="mb-6 md:mb-0 flex justify-center items-center flex-col w-96 h-96">
           <img className="w-96 h-96" src={group2} alt="" />
-          <p className="font-open-sans text-base font-semibold leading-6 tracking-normal text-left mx-10 flex flex-col mt-5">
+          <p className="font-open-sans text-xl font-semibold leading-6 tracking-normal text-left mx-10 flex flex-col mt-5">
             2. Perform Your Actions
-            <span className="font-open-sans text-sm font-normal leading-5 tracking-normal text-left">
+            <span className="font-open-sans text-l font-normal leading-5 tracking-normal text-left mt-2">
               Once capturing, Wizardshot carefully monitors what you do to
               understand how to document it.
             </span>
@@ -40,9 +40,9 @@ const Features = () => {
         </div>
         <div className="flex justify-center items-center flex-col w-96 h-96">
           <img className="w-96 h-96" src={group3} alt="" />
-          <p className="font-open-sans text-base font-semibold leading-6 tracking-normal text-left mx-10 flex flex-col mt-5">
+          <p className="font-open-sans text-xl font-semibold leading-6 tracking-normal text-left mx-10 flex flex-col mt-5">
             3. ✅ Done. Article Written
-            <span className="font-open-sans text-sm font-normal leading-5 tracking-normal text-left">
+            <span className="font-open-sans text-l font-normal leading-5 tracking-normal text-left mt-2">
               Wizardshot carefully crafts the perfect article based off your
               actions recorded. Just click “Done” and we’ll write up the article
               in a second.
