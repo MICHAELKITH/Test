@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { ChevronUpIcon, XMarkIcon } from "@heroicons/react/24/solid";
+
 
 const Accordion = ({ title, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
@@ -11,8 +11,7 @@ const Accordion = ({ title, answer }) => {
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex justify-between w-full btn"
       >
-        <span>{title}</span>
-        {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}
+        <span className="font-semibold">{title}</span>
         <svg
   className={`fill-black shrink-0 ml-8 transition-transform ${
     accordionOpen ? 'rotate-180' : ''
@@ -38,6 +37,7 @@ const Accordion = ({ title, answer }) => {
         }`}
       >
         <div className="overflow-hidden">{answer}</div>
+        <hr className="font-normal py-2" />
       </div>
     </div>
   );
