@@ -32,21 +32,21 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="relative  flex justify-center items-center">
-        <div className="flex justify-center items-center border-8 border-black w-full md:w-full md:h-3/4 rounded-lg mx-auto my-8 relative md:mt-12">
-          <div className="w-full h-full px-8 py-6 mx-10 font-bold text-center">
-            <h1 className="text-2xl">
+      <div className="relative  flex justify-center md:items-center">
+        <div className="flex justify-center md:items-center border-8 border-black  md:w-full md:h-3/4 rounded-lg mx-auto my-8 w-5/6 relative md:mt-12">
+          <div className="w-full px-8 py-6 mx-10 font-bold text-center">
+            <h1 className="md:text-2xl ">
               Create A Detailed Tutorial <br /> In Less than 3 clicks
             </h1>
 
-            <button className="btn bg-black text-white py-4 flex justify-center items-center mt-4 rounded-md px-10 mx-auto">
-              <img className="mr-2" src={chrome} alt="" />
+            <button className="btn bg-black text-white py-4 flex justify-center  mt-4 rounded-md md:px-6 mx-auto px-2 gap-1">
+              <img className="md:mr-2" src={chrome} alt="" />
               Install Wizardshots
             </button>
 
-            <p className="py-10 md:text-3xl">
-              “Has helped us write help docs 100x faster” –{" "} <br />
-              <span className="font-normal">Dany River, Cartier Informatie</span>
+            <p className="py-10 md:text-3xl text-sm flex flex-col ">
+              “Has helped us write help docs 100x faster” 
+              <span className="font-normal">- Dany River, Cartier Informatie</span>
             </p>
 
             <img src={stars} alt="" className="mx-auto" />
