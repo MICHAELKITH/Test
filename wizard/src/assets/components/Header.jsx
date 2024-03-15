@@ -15,7 +15,7 @@ const Header = () => {
   let [open, setOpen] = useState(false);
 
   return (
-    <div className="shadow-md w-full fixed top-0 left-0 flex flex-col">
+    <div className="shadow-md w-full fixed top-0 left-0 flex flex-col ">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7 ">
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-2 md:m-4">
           <img src={Group} className="w-7 h-7" alt="" />

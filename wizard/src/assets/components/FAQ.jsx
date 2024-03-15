@@ -39,7 +39,7 @@ const FAQ = () => {
   return (
     <div className="flex justify-center items-center flex-col pt-6 py-3">
       <div className="p-4 rounded-lg md:w-1/2 ">
-        <h1 className="text-2xl font-semibold text-center mb-4">
+        <h1 className="text-3xl font-bold text-center mb-4">
           Common Questions
         </h1>
         {faqs.map((faq, index) => (
@@ -47,8 +47,8 @@ const FAQ = () => {
         ))}
       </div>
       <div className="mt-8 flex flex-col md:flex-row justify-center items-center gap-4 w-full md:w-auto mb-4">
-        <p className="text-center md:text-left">Curious to learn more? </p>
-        <button className="mt-2 md:mt-0 bg-black hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded">
+        <p className="text-center md:text-left font-bold text-l">Curious to learn more? </p>
+        <button className="mt-2 md:mt-0 bg-black hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-lg">
           Visit Help & Community Center
         </button>
       </div>
