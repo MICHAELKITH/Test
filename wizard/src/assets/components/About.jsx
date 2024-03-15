@@ -39,7 +39,7 @@ const About = () => {
               Create A Detailed Tutorial <br /> In Less than 3 clicks
             </h1>
 
-            <button className="btn bg-black text-white py-4 flex justify-center  mt-4 rounded-md md:px-6 mx-auto  gap-1">
+            <button className="btn bg-black text-white py-6 flex justify-center mt-4 rounded-md md:px-8 mx-auto md:gap-2 md:text-2xl font-medium">
               <img className="md:mr-2" src={chrome} alt="" />
               Install Wizardshots
             </button>
