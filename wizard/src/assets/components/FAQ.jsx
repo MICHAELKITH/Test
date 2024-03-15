@@ -2,7 +2,6 @@ import React from "react";
 import Accordion from "./Accordion";
 
 const FAQ = () => {
-  // Array of FAQ items
   const faqs = [
     {
       title: "What is Wizardshot?",

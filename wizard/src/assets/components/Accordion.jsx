@@ -12,7 +12,6 @@ const Accordion = ({ title, answer }) => {
         className="flex justify-between w-full btn"
       >
         <span className="font-semibold">{title}</span>
-        {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}
         <svg
   className={`fill-black shrink-0 ml-8 transition-transform ${
     accordionOpen ? 'rotate-180' : ''
