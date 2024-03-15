@@ -69,8 +69,6 @@ const Footer = () => {
         <div>
           <div className="flex md:flex-col flex-col-reverse ">
             <div className="flex gap-5 ">
-
-            
               <p className="font-normal gap-5">
                 📞 +1 (833) 387 3877{" "}
                 <p>
@@ -83,14 +81,10 @@ const Footer = () => {
               <img src={ICON2} alt="" />
             </div>
 
-            
-            
             <div className="flex gap-8 font-bold text-gray-600 text-xl">
               <p>Sign Up</p>
               <p>Log in</p>
             </div>
-
-            
           </div>
         </div>
       </div>
@@ -105,6 +99,4 @@ const Footer = () => {
 };
 
 export default Footer;
-{
-  /*  */
-}
+
