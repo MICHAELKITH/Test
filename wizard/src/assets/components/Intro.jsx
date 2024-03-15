@@ -4,7 +4,10 @@ import arrow from "/images/Arrow 13.png";
 
 const Intro = () => {
   return (
-    <div className="w-full pt-10 text-center justify-center gap-2 bg-cover bg-left my-12  place-content-center">
+    <div
+      className="w-full pt-10 text-center bg-no-repeat bg-bottom justify-center gap-2 md:bg-cover md:bg-right-top  my-12 place-content-center "
+      style={{ backgroundImage: "url('/images/Group.svg')" }}
+    >
       <h1 className="mt-16 text-4xl text-balance md:text-5xl lg:text-6xl font-bold leading-none tracking-tight text-center font-jakarta-sans text-[#18181B] ">
         Your Magic Wand for <br />
         Instant Documentation
@@ -18,7 +21,7 @@ const Intro = () => {
         Install Wizardshot <span className="text-2xl font-normal"> →</span>
       </button>
       <div className="relative">
-        <div className="flex justify-center items-center border-8 border-purple-400 md:w-1/2 rounded-md mx-auto my-8 relative">
+        <div className="flex justify-center items-center border-8 border-purple-400 md:w-1/2 rounded-md mx-auto my-8  w-5/6 relative">
           <img src={vid} alt="" className="w-full h-full object-cover" />
           <img src={arrow} alt="" className="absolute -top-8 -left-5" />
           <p className="absolute -top-8 left-5 -my-6 italic font-thin leading-tight ">

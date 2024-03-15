@@ -13,10 +13,10 @@ const Features = () => {
         To Wizardshot Doing it for YOU.
       </h1>
 
-      <div className="flex flex-col md:flex-row justify-center items-center p-4 mt-6 md:gap-10">
-        <div className="mb-6 md:mb-0 flex justify-center items-center flex-col w-96 h-96 ">
+      <div className=" w-3/4 flex flex-col md:flex-row justify-center items-center p-4 mt-6 md:gap-10">
+        <div className="mb-6 md:mb-0 flex justify-center items-center flex-col w-96 h-96  ">
           <img
-            className="w-96 h-96 bg-gradient-to-r from-green-400 to-purple-600 via-orange-500 to-yellow-400"
+            className="w-96 h-96 "
             src={group1}
             alt=""
           />

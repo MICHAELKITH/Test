@@ -9,7 +9,7 @@ const FAQ = () => {
         "Wizardshot is a web app & chrome extension that allows you to create step-by-step tutorials simply by capturing your screen.",
     },
     {
-      title: "Do you prefer writing CSS or Tailwind?",
+      title: "How is Wizardshot Free?",
       answer: [
         "The costs to run a service is really inexpensive as most of the processing happens in the Chrome extension.",
         "Really - all that we have to pay for is <u> super-secure hosting, awesome 24/7 support</u> and that’s it.",
@@ -37,8 +37,8 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="flex justify-center items-center md:flex-col pt-6">
-      <div className="p-4 rounded-lg md:w-1/2 bg-gray-100">
+    <div className="flex justify-center items-center flex-col pt-6 py-3">
+      <div className="p-4 rounded-lg md:w-1/2 ">
         <h1 className="text-2xl font-semibold text-center mb-4">
           Common Questions
         </h1>
