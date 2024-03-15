@@ -15,10 +15,10 @@ function App() {
        <Header/>
        <Intro/>
        <Features />
-       <About/>
+       {/* <About/>
        <FAQ/>
        <More/>
-       <Footer/>
+       <Footer/> */}
 
     </main>
   )
