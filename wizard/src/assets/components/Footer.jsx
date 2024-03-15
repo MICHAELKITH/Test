@@ -37,32 +37,36 @@ const Footer = () => {
               </div>
               <div className="border-2 border-solid  border-black  h-13  text-[#3A3A3A]">
                 <p className="-mt-1 text-sm font-bold leading-tight text-start px-2">
-                  Rated Knowledge Base{" "}
+                  #1 Rated Knowledge Base{" "}
                 </p>
               </div>
             </div>
           </div>
         </div>
+        <div className="flex mb-6">
         <div className="flex flex-col md:w-48">
           <div className="flex gap-2 ">
-            <p className="font-bold">Learn more</p>
+            <p className="font-medium text-xl">Learn more</p>
           </div>
-          <ul className="gap-2 mt-2 font-normal">
+          <ul className="gap-2 mt-2 font-normal text-l">
             <li>Wizardshot</li>
             <li>Community Page</li>
             <li>Help Center</li>
             <li>Security Information</li>
           </ul>
         </div>
-        <div className="flex flex-col md:w-48">
+        <div className="flex flex-col md:w-48 px-8">
           <div className="flex gap-2 ">
-            <p className="font-bold">Company</p>
+            <p className="font-medium text-xl">Company</p>
           </div>
-          <ul className="gap-2 mt-2 font-normal">
+          <ul className="gap-2 mt-2 font-normal text-l">
             <li>About us</li>
             <li>Status Page </li>
           </ul>
         </div>
+
+        </div>
+
 
         <div className="flex flex-col ">
           <div className="flex gap-5 ">
