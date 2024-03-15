@@ -6,9 +6,9 @@ import chrome from "/images/chrome.png";
 const About = () => {
   return (
     <div className="md:mt-12 mx-auto py-8">
-      <div className="flex flex-row md:flex-row md:mt-4 md:gap-8 bg-gradient-to-r from-green-200 via-red-200 to-blue-200 md:h-7 md:w-3/4 w-full h-5 md:mx-12 -gap-4 ">
-        <div className="flex flex-row md:gap-2 items-center md:-ml-1 text-sm"> 
-          <h1 className="font-jakarta-sans md:text-2xl font-medium leading-12 tracking-normal text-start text-xl">
+      <div className="flex flex-row md:flex-row md:mt-4 md:gap-8 bg-gradient-to-r from-green-200 via-red-200 to-blue-200 md:h-7 md:w-3/4 w-5/6 h-5 md:mx-12 -gap-4 ml-4 ">
+        <div className="flex flex-row md:gap-2 items-center md:-ml-1 text-sm "> 
+          <h1 className="font-jakarta-sans md:text-2xl font-medium leading-12 tracking-normal text-start text-l">
             Free
           </h1>
           <p className="font-jakarta-sans md:text-base flex flex-col text-sm">
@@ -16,15 +16,15 @@ const About = () => {
           </p>
         </div>
         <div className="flex gap-2 items-center md:ml-12 ml-2">
-          <h1 className="font-jakarta-sans md:text-2xl font-medium leading-12 tracking-normal text-center text-xl">
+          <h1 className="font-jakarta-sans md:text-2xl font-medium leading-12 tracking-normal text-center text-l">
             Unlimited
           </h1>
           <p className="font-jakarta-sans md:text-base flex flex-col text-sm">
             Tutorial <span className="font-normal">Creation</span>
           </p>
         </div>
-        <div className="flex gap-2 items-center md:ml-14 ml-1">
-          <h1 className="font-jakarta-sans md:text-2xl font-medium leading-12 tracking-normal text-center text-xl" >
+        <div className="flex gap-2 items-center md:ml-14 ">
+          <h1 className="font-jakarta-sans md:text-2xl font-medium leading-12 tracking-normal text-center text-l" >
             Powerful
           </h1>
           <p className="font-jakarta-sans md:text-base flex flex-col text-sm">
@@ -39,7 +39,7 @@ const About = () => {
               Create A Detailed Tutorial <br /> In Less than 3 clicks
             </h1>
 
-            <button className="btn bg-black text-white py-4 flex justify-center  mt-4 rounded-md md:px-6 mx-auto px-2 gap-1">
+            <button className="btn bg-black text-white py-4 flex justify-center  mt-4 rounded-md md:px-6 mx-auto  gap-1">
               <img className="md:mr-2" src={chrome} alt="" />
               Install Wizardshots
             </button>
