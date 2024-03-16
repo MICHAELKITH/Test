@@ -34,6 +34,7 @@ const FAQ = () => {
 
     {
       title: "Curious to learn more? ",
+      answer:["Let's discuss more "]
     },
   ];
 
