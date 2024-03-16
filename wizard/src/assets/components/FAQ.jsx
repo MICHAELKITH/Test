@@ -17,7 +17,7 @@ const FAQ = () => {
       ].map((answer, index) => (
         <p
           key={index}
-          className={`text-base leading-6 ${
+          className={` md:text-xl leading-6 gap-3 ${
             index > 1 ? "mt-2 font-semibold" : ""
           }`}
         >
@@ -29,6 +29,7 @@ const FAQ = () => {
 
     {
       title: "Is my data secure?",
+      answer:["Wizardshot is safe"]
     },
 
     {

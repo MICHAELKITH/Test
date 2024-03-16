@@ -36,7 +36,7 @@ const Accordion = ({ title, answer }) => {
             : "grid-rows-[0fr] opacity-0"
         }`}
       >
-        <div className="overflow-hidden">{answer}</div>
+        <div className="overflow-hidden md:text-xl">{answer}</div>
         <hr className="font-normal py-2" />
       </div>
     </div>
