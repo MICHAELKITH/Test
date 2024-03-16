@@ -48,11 +48,11 @@ const FAQ = () => {
           <Accordion key={index} title={faq.title} answer={faq.answer} />
         ))}
 
-        <div className="mt-8 flex flex-col md:flex-row items-center gap-8 w-full md:w-auto mb-4">
+        <div className="mt-8 flex flex-col md:flex-row items-center gap-8 md:w-auto mb-4">
           <p className="text-center md:text-left font-black md:font-medium ">
             Curious to learn more?{" "}
           </p>
-          <button className="mt-2 md:mt-0 bg-black hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-lg">
+          <button className="mt-2 md:mt-0 bg-black hover:bg-gray-400 text-white font-semibold py-2 px-4 rounded-lg">
             Visit Help & Community Center
           </button>
         </div>
