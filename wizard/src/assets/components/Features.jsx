@@ -42,7 +42,7 @@ const Features = () => {
           <img className="w-96 h-96" src={group3} alt="" />
           <p className="font-open-sans text-xl font-semibold leading-6 tracking-normal text-left mx-10 flex flex-col mt-5">
             3. ✅ Done. Article Written
-            <span className="font-open-sans text-l font-normal leading-5 tracking-normal text-left mt-2">
+            <span className="font-open-sans text-l font-normal leading-5 tracking-normal text-left md:mt-0 mt-2">
               Wizardshot carefully crafts the perfect article based off your
               actions recorded. Just click “Done” and we’ll write up the article
               in a second.
