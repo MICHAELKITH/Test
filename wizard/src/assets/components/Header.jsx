@@ -59,7 +59,7 @@ const Header = () => {
           {open && <hr className="my-4 md:hidden w-full border-gray-300" />}
 
           <div className=" md:flex-col-reverse md:flex  items-center gap-1 md:my-0 ">
-            <button className="md:btn bg-black flex gap-2 text-white justify-center md:ml-8 font-semibold px-3 py-2 rounded-md duration-500 md:static md:mb-4">
+            <button className="md:btn bg-black  hover:bg-gray-400 flex gap-2 text-white justify-center md:ml-8 font-semibold px-3 py-2 rounded-md duration-500 md:static md:mb-4">
               <img className="flex justify-center " src={chrome} alt="" />
               Install Wizardshots
             </button>

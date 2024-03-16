@@ -17,7 +17,7 @@ const Intro = () => {
         Turn ANY process into a simple step-by-step Guide
       </p>
 
-      <button className="  btn bg-black text-white rounded-md px-2 py-2 text-xl font-medium hover:bg-gray-800 my-4 place-content-center gap-3 mb-12">
+      <button className="  btn bg-black hover:bg-gray-400 text-white rounded-md px-2 py-2 text-xl font-medium my-4 place-content-center gap-3 mb-12">
         Install Wizardshot <span className="text-2xl font-normal"> →</span>
       </button>
       <div className="relative">

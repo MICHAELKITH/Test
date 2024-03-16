@@ -49,10 +49,26 @@ const Footer = () => {
               <p className="font-medium text-xl">Learn more</p>
             </div>
             <ul className="gap-2 mt-2 font-normal text-l">
-              <li>Wizardshot</li>
-              <li>Community Page</li>
-              <li>Help Center</li>
-              <li>Security Information</li>
+              <li>
+                <a href="#" className="hover:text-gray-500 hover:underline">
+                  Wizardshot
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-500 hover:underline">
+                  Community Page
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-500 hover:underline">
+                  Help Center
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-500 hover:underline">
+                  Security Information
+                </a>
+              </li>
             </ul>
           </div>
           <div className="flex flex-col md:w-48 px-8">
@@ -60,8 +76,16 @@ const Footer = () => {
               <p className="font-medium text-xl">Company</p>
             </div>
             <ul className="gap-2 mt-2 font-normal text-l">
-              <li>About us</li>
-              <li>Status Page </li>
+              <li>
+                <a href="#" className="hover:text-gray-500 hover:underline">
+                  About us
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-gray-500 hover:underline">
+                  Status Page
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -99,4 +123,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
