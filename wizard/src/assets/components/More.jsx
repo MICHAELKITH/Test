@@ -5,7 +5,7 @@ const More = () => {
     <div className="flex justify-center items-center w-full relative ">
       <div className="px-10 md:ml-10 bg-gradient-to-r from-gray-900 via-gray-900 to-amber-900 text-white rounded-lg md:w-3/4 w-5/6 gap-80 md:flex ">
         <div className="md:py-8 text-white gap-4 py-2 md:px-8">
-          <h1 className="md:text-2xl ">Create Tutorials in 3 Clicks.</h1>
+          <h1 className="md:text-2xl font-black">Create Tutorials in 3 Clicks.</h1>
           <p className="text-sm py-2 md:font-medium font-light">
             With WizardShot, You Click Capture, And We’ll Capture What’s
             Happening on <br /> Your Screen And Turn It Into A Tutorial.

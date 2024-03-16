@@ -45,12 +45,15 @@ const FAQ = () => {
         {faqs.map((faq, index) => (
           <Accordion key={index} title={faq.title} answer={faq.answer} />
         ))}
-      </div>
-      <div className="mt-8 flex flex-col md:flex-row justify-center items-center gap-4 w-full md:w-auto mb-4">
-        <p className="text-center md:text-left">Curious to learn more? </p>
-        <button className="mt-2 md:mt-0 bg-black hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded">
-          Visit Help & Community Center
-        </button>
+
+        <div className="mt-8 flex flex-col md:flex-row items-center gap-8 w-full md:w-auto mb-4">
+          <p className="text-center md:text-left font-black md:font-medium ">
+            Curious to learn more?{" "}
+          </p>
+          <button className="mt-2 md:mt-0 bg-black hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-lg">
+            Visit Help & Community Center
+          </button>
+        </div>
       </div>
     </div>
   );
