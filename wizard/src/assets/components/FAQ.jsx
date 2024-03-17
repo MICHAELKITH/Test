@@ -31,11 +31,6 @@ const FAQ = () => {
       title: "Is my data secure?",
       answer:["Wizardshot is safe"]
     },
-
-    {
-      title: "Curious to learn more? ",
-      answer:["Let's discuss more "]
-    },
   ];
 
   return (
