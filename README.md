@@ -22,7 +22,6 @@ This project was built using these technologies.
 
 ### Key Features <a name="key-features"></a>
 
-- **Lets users perform mathematical operation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
